@@ -1,8 +1,7 @@
 #include <iostream>
-
 #include <filesystem>
-#include "ImageIO.hpp"
-#include "Filter.hpp"
+#include "../include/ImageIO.hpp"
+#include "../include/filter.hpp"
 
 int main(int argc, char* argv[])
 {
