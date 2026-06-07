@@ -25,7 +25,7 @@ Image grayscale(const Image& input){
                     0.114 * b
                 );
 
-            output.data[i * output.width + j] = gray;
+            output.data[y * output.width + x] = gray;
         }
     }
 

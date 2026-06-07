@@ -1,0 +1,12 @@
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Compiled object files
+*.o
+*.obj
+
+# Test output images 
+*output*.png
+*output*.jpg

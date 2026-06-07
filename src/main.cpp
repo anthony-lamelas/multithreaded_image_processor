@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
         std::filesystem::path output_path = argv[2];
 
         Image image = load(input_path);
-        Image output_image = grayscale(image);
+        Image output_image = invert(image);
         save(output_image, output_path);
     }
     
