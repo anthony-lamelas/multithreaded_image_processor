@@ -8,5 +8,4 @@
 *.obj
 
 # Test output images
-*output*.png
-*output*.jpg
+test_output/

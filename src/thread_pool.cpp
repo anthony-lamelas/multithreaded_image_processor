@@ -23,9 +23,8 @@ ThreadPool::ThreadPool(std::size_t num_threads) : stop(false) {
                     // Grab the task and remove it from the queue
                     task = std::move(this->tasks.front());
                     this->tasks.pop();
-                } // Lock is automatically released here
+                } 
 
-                // Run the task outside the lock so other threads can still grab tasks
                 task();
             }
         });
