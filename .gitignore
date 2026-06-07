@@ -7,6 +7,6 @@
 *.o
 *.obj
 
-# Test output images 
+# Test output images
 *output*.png
 *output*.jpg
